@@ -23,13 +23,13 @@ Before running migrations, create a MySQL database using phpMyAdmin or any MySQL
 #### Setting.py
 
     DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_test',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': 'django_test',
+            'USER': 'root',
+            'PASSWORD': '',
+            'HOST': '127.0.0.1',
+            'PORT': '3306',
         }
     }
 

@@ -17,6 +17,12 @@ Ensure XAMPP is installed on your system and the MySQL service is running. You c
     sudo service mysql stop
     sudo /opt/lampp/manager-linux-x64.run
 
+#### If Apache server not working
+
+For Ubuntu:
+
+    sudo systemctl stop apache2
+
 ### Creating a MySQL Database:
 Before running migrations, create a MySQL database using phpMyAdmin or any MySQL client. You can create a database named 'django_test' using phpMyAdmin or the MySQL command line.
 
